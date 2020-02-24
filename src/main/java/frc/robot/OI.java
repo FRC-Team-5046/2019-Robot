@@ -56,12 +56,12 @@ public class OI {
   public OI() 
   {
 
-    one.buttonR1.toggleWhenPressed(new DriveShiftToggle());
-    one.buttonL1.toggleWhenPressed(new IntakeHatchToggle());
+    //one.buttonR1.toggleWhenPressed(new DriveShiftToggle());
+    //one.buttonL1.toggleWhenPressed(new IntakeHatchToggle());
     //one.buttonL1.toggleWhenPressed(new JacksFrontUp());
     //one.buttonSTART.whenPressed(new JacksDown());
-    three.buttonSTART.toggleWhenPressed(new JacksDown());
-    one.buttonBACK.toggleWhenPressed(new JacksUpDownManual());
+    //three.buttonSTART.toggleWhenPressed(new JacksDown());
+    //one.buttonBACK.toggleWhenPressed(new JacksUpDownManual());
 
 
     //two.buttonA.toggleWhenPressed(new IntakePositionToggle());
@@ -73,19 +73,19 @@ public class OI {
     // two.buttonPadUp.whenPressed(new ArmPositionHatch3());
 
     
-    two.buttonSTART.toggleWhenPressed(new IntakeHatchAssemblyToggle());
-    two.buttonBACK.toggleWhenPressed(new IntakeHatchAssemblyToggle());
+    //two.buttonSTART.toggleWhenPressed(new IntakeHatchAssemblyToggle());
+    //two.buttonBACK.toggleWhenPressed(new IntakeHatchAssemblyToggle());
     
 
 
-    two.buttonL1.whileHeld(new IntakeCargoRollersSuckIn());  //actually out
-    two.buttonR1.whileHeld(new IntakeCargoRollersSpitOut());  //actually in
+    one.buttonL1.whileHeld(new IntakeCargoRollersSuckIn());  //actually out
+    one.buttonR1.whileHeld(new IntakeCargoRollersSpitOut());  //actually in
 
-    two.buttonA.toggleWhenPressed(new IntakePositionDown());
-    two.buttonY.toggleWhenPressed(new IntakePositionUp());
+    //two.buttonA.toggleWhenPressed(new IntakePositionDown());
+    //two.buttonY.toggleWhenPressed(new IntakePositionUp());
 
   
-    three.buttonR1.whileHeld(new DriveBackwards());
+    //three.buttonR1.whileHeld(new DriveBackwards());
 
     // three.buttonB.whileHeld(new JackMoveRearArmDown(0.0));
     // three.buttonX.whileHeld(new JackMoveFrontArmsDown(0.0));

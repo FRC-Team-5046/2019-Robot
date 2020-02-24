@@ -310,7 +310,7 @@ public class DriveTrain extends Subsystem {
 		// 	System.out.println("Drive Disabled");
 		//  }
 		// System.out.println(Robot.jacks.diableDrivetrain);
-		drive.driveArcade(throttle *.75 , wheel);
+		drive.driveArcade(throttle  , wheel);
 		
 		Robot.jacks.setDrivePower(Robot.oi.one.getLeftStickY(), Robot.oi.one.getLeftStickY()* -1);
 	}

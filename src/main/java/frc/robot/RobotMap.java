@@ -77,8 +77,8 @@ public class RobotMap {
   // public static TalonSRX leftDriveMaster = new TalonSRX(1);
   // public static TalonSRX rightDriveMaster = new TalonSRX(2);
   
-public static CANSparkMax leftDriveMaster = new CANSparkMax(1, MotorType.kBrushless);
-public static CANSparkMax rightDriveMaster = new CANSparkMax(2, MotorType.kBrushless);
+public static CANSparkMax leftDriveMaster = new CANSparkMax(4, MotorType.kBrushless);
+public static CANSparkMax rightDriveMaster = new CANSparkMax(1, MotorType.kBrushless);
 	
   // public static VictorSPX leftDriveMaster = new VictorSPX(3);
 	//public static VictorSPX rightDriveMaster = new VictorSPX(1);
@@ -89,10 +89,10 @@ public static CANSparkMax rightDriveMaster = new CANSparkMax(2, MotorType.kBrush
 	// public static VictorSPX rightDriveSlave1 = new VictorSPX(4);
 	// public static VictorSPX rightDriveSlave2 = new VictorSPX(6);
 
-  public static CANSparkMax leftDriveSlave1 = new CANSparkMax(3, MotorType.kBrushless);
-  public static CANSparkMax leftDriveSlave2 = new CANSparkMax(5, MotorType.kBrushless);
-  public static CANSparkMax rightDriveSlave1 = new CANSparkMax(4, MotorType.kBrushless);
-  public static CANSparkMax rightDriveSlave2 = new CANSparkMax(6, MotorType.kBrushless);
+  public static CANSparkMax leftDriveSlave1 = new CANSparkMax(5, MotorType.kBrushless);
+  public static CANSparkMax leftDriveSlave2 = new CANSparkMax(11, MotorType.kBrushless);
+  public static CANSparkMax rightDriveSlave1 = new CANSparkMax(7, MotorType.kBrushless);
+  public static CANSparkMax rightDriveSlave2 = new CANSparkMax(12, MotorType.kBrushless);
     
 
   //public static TalonSRX leftDriveSlave1 = new TalonSRX(3);
@@ -101,7 +101,7 @@ public static CANSparkMax rightDriveMaster = new CANSparkMax(2, MotorType.kBrush
 	//public static TalonSRX rightDriveSlave2 = new TalonSRX(6);
 	
 
-public static CANSparkMax armMotor = new CANSparkMax(7, MotorType.kBrushless);
+public static CANSparkMax armMotor = new CANSparkMax(2, MotorType.kBrushless);
   //---------------------------ARM Position Motor -------------------------------------------
 
   // public static TalonSRX armPositionMotor = new TalonSRX(7);
@@ -138,7 +138,7 @@ public static CANSparkMax armMotor = new CANSparkMax(7, MotorType.kBrushless);
   
 
   //----------------------------Cargo Intake Motor ----------------------------------------------------
-  public static TalonSRX cargoIntakeMotor = new TalonSRX(10);
+  public static VictorSPX cargoIntakeMotor = new VictorSPX(6);
   public static boolean cargoIntakeMotorInvert = false;
 
   
